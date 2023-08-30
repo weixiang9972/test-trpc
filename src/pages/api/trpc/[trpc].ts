@@ -10,7 +10,7 @@ import { t } from "~/server/trpc";
 const router = t.router({
   hello: t.procedure.query(() => {
     return {
-      a: "b",
+      a: "123b",
     };
   }),
 });
